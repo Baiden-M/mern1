@@ -8,12 +8,6 @@ app.get('/', (req, res) => {
   res.write('https://github.com/Baiden-M/mern1.git')
   res.end()
 })
-app.get('/', (req, res) => {
-  
-})
-app.get('/', (req, res) => {
-  
-})
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
