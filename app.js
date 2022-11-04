@@ -1,11 +1,18 @@
 const express = require('express')
 const app = express()
-const port = 3061
+const port = 5061
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
-  res.send('Baiden McElroy s73j573')
-  res.send('https://github.com/Baiden-M/mern1.git')
+  res.write('Hello World!')
+  res.write('Baiden McElroy s73j573')
+  res.write('https://github.com/Baiden-M/mern1.git')
+  res.end()
+})
+app.get('/', (req, res) => {
+  
+})
+app.get('/', (req, res) => {
+  
 })
 
 app.listen(port, () => {
